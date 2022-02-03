@@ -8,9 +8,6 @@ var path = require("path");
 var app = express();
 var PORT = process.env.PORT || 3000;
 
-var contactService = process.env.CONTACT_SERVICE;
-var userID = process.env.USER_ID;
-
 // Routes
 // =============================================================
 app.use(express.static(__dirname + "/public"));
