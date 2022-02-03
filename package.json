@@ -4,7 +4,7 @@
   "description": "- The client has requested a Lead Generation Site, this website will use Bootstrap and Javascript as well as SEO strategies and targeted ads to create a tool that will return \"Leads\" that is optimized for computer or phone.",
   "main": "server.js",
   "scripts": {
-    "start": "npm start",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
