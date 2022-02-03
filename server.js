@@ -8,26 +8,8 @@ var path = require("path");
 var app = express();
 var PORT = process.env.PORT || 3000;
 
-// var contactService = process.env.CONTACT_SERVICE;
-// var userID = process.env.YOUR_USER_ID;
-
-// function emailPost() {
-//   emailjs
-//     .sendForm(
-//       process.env.CONTACT_SERVICE,
-//       "contact_form",
-//       "#contact-form",
-//       process.env.YOUR_USER_ID
-//     )
-//     .then(
-//       function () {
-//         console.log("SUCCESS!");
-//       },
-//       function (error) {
-//         console.log("FAILED...", error);
-//       }
-//     );
-// }
+var contactService = process.env.CONTACT_SERVICE;
+var userID = process.env.USER_ID;
 
 // Routes
 // =============================================================
@@ -36,6 +18,14 @@ app.use(express.static(__dirname + "/public"));
 // Basic route that sends the user first to the AJAX Page
 app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "index.html"));
+});
+
+app.get("/getvar", function (req, res) {
+  res.json({ contactService: process.env.CONTACT_SERVICE });
+});
+
+app.get("/getvar", function (req, res) {
+  res.json({ userID: process.env.USER_ID });
 });
 
 // Starts the server to begin listening

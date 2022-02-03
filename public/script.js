@@ -1,14 +1,17 @@
 var submitButton = $("#submit-button");
 
+$.get("/getvar", function (data) {
+  contactService = data.contactService;
+});
+
+$.get("/getvar", function (data) {
+  userID = data.userID;
+});
+
 submitButton.click(function (event) {
   event.preventDefault();
   emailjs
-    .sendForm(
-      process.env.CONTACT_SERVICE,
-      "contact_form",
-      "#contact-form",
-      process.env.YOUR_USER_ID
-    )
+    .sendForm(contactService, "contact_form", "#contact-form", userID)
     .then(
       function () {
         console.log("SUCCESS!");
