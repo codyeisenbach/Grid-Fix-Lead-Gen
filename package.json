@@ -4,7 +4,7 @@
   "description": "- The client has requested a Lead Generation Site, this website will use Bootstrap and Javascript as well as SEO strategies and targeted ads to create a tool that will return \"Leads\" that is optimized for computer or phone.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,7 +13,12 @@
     "bootstrap": "^5.1.3",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
+    "googleapis": "^94.0.0",
     "jquery": "^3.6.0",
+    "nodemailer": "^6.7.2",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
