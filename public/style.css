@@ -28,6 +28,8 @@
 .ftype1 {
   display: flex;
   text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
   font-family: "Helvetica-Light";
   font-size: 35px;
   color: white;
@@ -61,7 +63,7 @@
   width: 50%;
 }
 
-.ftype4-email {
+.ftype4-input {
   align-self: flex-start;
   font-family: "Helvetica-Light";
   font-size: 20px;
@@ -138,6 +140,11 @@
   width: 95%;
 }
 
+.input-name {
+  align-self: flex-end;
+  width: 95%;
+}
+
 .logo-image {
   display: flex;
   margin-top: 3%;
@@ -178,9 +185,10 @@
   .form-group {
     margin-bottom: 2%;
   }
-  .ftype4-email {
-    margin-left: 0px;
+  .ftype4-input {
+    margin-left: 10px;
   }
+
   .ftype1 {
     font-size: 25px;
   }
@@ -202,7 +210,10 @@
   }
 
   .input-email {
-    align-self: flex-start;
+    align-self: center;
+  }
+  .input-name {
+    align-self: center;
   }
 }
 
