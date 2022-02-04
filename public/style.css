@@ -183,3 +183,12 @@
     align-self: flex-start;
   }
 }
+
+@media (max-width: 450px) {
+  .ftype3 {
+    margin-top: -6px;
+  }
+  .green-bar {
+    height: 125px;
+  }
+}
