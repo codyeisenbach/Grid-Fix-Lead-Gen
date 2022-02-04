@@ -38,6 +38,8 @@
   text-align: center;
   width: 100%;
   font-family: "Helvetica-Light";
+  padding-left: 2%;
+  padding-right: 2%;
   font-size: 25px;
   color: white;
   margin-bottom: 1%;
@@ -74,8 +76,19 @@
   font-size: 20px;
   color: white;
   width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
   margin-top: 1%;
   margin-bottom: 3%;
+}
+
+.ftype6 {
+  text-align: center;
+  width: 100%;
+  font-family: "Helvetica-Light";
+  font-size: 25px;
+  color: white;
+  margin-bottom: 0;
 }
 
 .green-bar {
@@ -152,6 +165,7 @@
     margin: 0 auto;
   }
   .green-bar {
+    border-radius: 20px;
     height: 115px;
   }
   .banner {
@@ -174,12 +188,19 @@
     font-size: 20px;
     margin-bottom: 30px;
   }
+
   .ftype3 {
     width: 400px;
   }
   .ftype5 {
     font-size: 16px;
   }
+
+  .ftype6 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
   .input-email {
     align-self: flex-start;
   }
