@@ -98,7 +98,7 @@ app.post("/", (req, res) => {
 
       // Mail options
       let mailOptions = {
-        from: process.env.SENDER_EMAIL,
+        from: email,
         to: recipient,
         subject: mailSubject,
         text: mailBody,
