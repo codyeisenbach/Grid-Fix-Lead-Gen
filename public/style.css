@@ -81,7 +81,7 @@
   padding-left: 3%;
   padding-right: 3%;
   margin-top: 1%;
-  margin-bottom: 6%;
+  margin-bottom: 2%;
 }
 
 .ftype6 {
@@ -207,6 +207,7 @@
   }
   .ftype5 {
     font-size: 17px;
+    margin-bottom: 6%;
   }
 
   .ftype6 {
