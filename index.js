@@ -4,6 +4,7 @@ require("dotenv").config();
 const nodemailer = require("nodemailer");
 var express = require("express");
 var path = require("path");
+var fs = require("fs");
 var app = express();
 var PORT = process.env.PORT || 3000;
 
@@ -24,7 +25,6 @@ app.get("/", function (req, res) {
 
 // Googleapis
 const { google } = require("googleapis");
-const { gmail } = require("googleapis/build/src/apis/gmail");
 
 // Pull out OAuth2 from googleapis
 const OAuth2 = google.auth.OAuth2;
@@ -68,18 +68,6 @@ const createTransporter = async () => {
   return transporter;
 };
 
-// app.post("/", (req, res) => {
-//   if (error) {
-//     console.log(err);
-//     return res.send("Error uploading file");
-//   } else {
-//     const name = req.body.name;
-//     const email = req.body.email;
-//     console.log("name:", name);
-//     console.log("email:", email);
-//   }
-// });
-
 // Route to handle sending mails
 // Post route to handle retrieving data from HTML form to server
 
@@ -93,12 +81,12 @@ app.post("/", (req, res) => {
       const recipient = process.env.REC_EMAIL;
       const name = req.body.name;
       const email = req.body.email;
-      const mailSubject = "Grid Fix Lead Gen";
+      const mailSubject = "Texas Grid Fix";
       const mailBody = `Name: ${name} Email: ${email}`;
 
       // Mail options
       let mailOptions = {
-        from: email,
+        from: process.env.SENDER_EMAIL,
         to: recipient,
         subject: mailSubject,
         text: mailBody,

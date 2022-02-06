@@ -31,7 +31,7 @@
   padding-left: 2%;
   padding-right: 2%;
   font-family: "Helvetica-Light";
-  font-size: 35px;
+  font-size: 32px;
   color: white;
   margin-bottom: 3%;
 }
@@ -42,7 +42,7 @@
   font-family: "Helvetica-Light";
   padding-left: 2%;
   padding-right: 2%;
-  font-size: 25px;
+  font-size: 23px;
   color: white;
   margin-bottom: 1%;
 }
@@ -203,7 +203,9 @@
   }
 
   .ftype3 {
+    align-self: center;
     width: 400px;
+    margin-bottom: 0;
   }
   .ftype5 {
     font-size: 17px;
