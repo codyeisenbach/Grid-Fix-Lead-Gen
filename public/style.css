@@ -98,6 +98,8 @@ p {
   font-size: 25px;
   color: white;
   margin-bottom: 0;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .green-bar {
