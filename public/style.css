@@ -111,7 +111,6 @@ p {
   min-width: 300px;
   max-width: 800px;
   min-height: 60px;
-
   width: 75%;
   height: 75px;
   background: #7aff9b;
@@ -219,7 +218,7 @@ p {
 
   .ftype6 {
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   .input-email {
@@ -235,5 +234,6 @@ p {
     width: 80%;
     border-radius: 20px;
     height: 115px;
+    margin-bottom: 5%;
   }
 }
