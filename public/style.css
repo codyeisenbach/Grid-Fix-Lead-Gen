@@ -99,18 +99,21 @@ p {
 }
 
 .green-bar-text {
-  width: 95%;
+  width: 93%;
   align-self: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  min-width: 300px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .green-bar {
   display: flex;
   justify-content: center;
-  padding: 10px;
   align-self: center;
   border-radius: 20px;
+  min-width: 300px;
   max-width: 800px;
   min-height: 60px;
   max-height: 130px;
@@ -263,7 +266,7 @@ p {
 
 @media (max-width: 762px) {
   .green-bar {
-    width: 80%;
+    width: 81%;
     margin-bottom: 5%;
   }
 }
