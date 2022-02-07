@@ -211,7 +211,6 @@ p {
 
   .green-bar {
     border-radius: 24px;
-    width: 70%;
   }
 
   .green-bar-text {
@@ -263,7 +262,7 @@ p {
 
 @media (max-width: 762px) {
   .green-bar {
-    width: 77%;
+    width: 80%;
     margin-bottom: 5%;
   }
 }
