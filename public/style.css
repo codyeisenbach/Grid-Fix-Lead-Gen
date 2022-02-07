@@ -101,6 +101,8 @@ p {
 .green-bar-text {
   width: 95%;
   align-self: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .green-bar {
@@ -113,7 +115,7 @@ p {
   max-width: 800px;
   min-height: 60px;
   width: 75%;
-  height: 5%;
+  height: 6%;
   background: rgba(44, 255, 181, 0.829);
   margin-bottom: 3%;
 }
@@ -212,6 +214,11 @@ p {
     border-radius: 24px;
   }
 
+  .green-bar-text {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
   .form-div {
     width: 95%;
     flex-direction: column;
@@ -257,7 +264,6 @@ p {
 @media (max-width: 762px) {
   .green-bar {
     width: 80%;
-    height: 15%;
     margin-bottom: 5%;
   }
 }
