@@ -4,4 +4,4 @@ Simple Web App using a Node and ExpressJS combo for the backend with Nodemailer 
 
 HTML was chosen over REACT for SEO purposes
 
-Deployed app @ http://www.texasgridfix.com
+Deployed app @ https://www.gridfixtexas.com
