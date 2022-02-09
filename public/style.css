@@ -208,6 +208,10 @@ p {
 } */
 
 @media (max-width: 800px) {
+  .parallax_img {
+    background-size: 100% auto;
+  }
+
   .logo {
     margin-bottom: 35px;
   }
@@ -247,6 +251,8 @@ p {
   .ftype6 {
     font-size: 23px;
     margin-bottom: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
