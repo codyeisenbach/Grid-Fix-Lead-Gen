@@ -1,6 +1,9 @@
 // Dependencies
 // =============================================================
 require("dotenv").config();
+const { JSDOM } = require("jsdom");
+const { window } = new JSDOM("");
+const $ = require("jquery")(window);
 const nodemailer = require("nodemailer");
 var express = require("express");
 var path = require("path");
@@ -10,10 +13,6 @@ var PORT = process.env.PORT || 3000;
 
 // Dependencies
 // =============================================================
-
-$(document).ready(function () {
-  resize_all_parallax();
-});
 
 /* resize the image(s) on page resize */
 $(window).on("resize", function () {
