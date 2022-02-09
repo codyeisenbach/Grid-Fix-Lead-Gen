@@ -188,13 +188,6 @@ p {
   background-size: 80% auto;
 }
 
-@media (max-width: 1400px) {
-  .parallax_img {
-    height: 620px;
-    background-size: 80% auto;
-  }
-}
-
 @media (max-width: 1200px) {
   .parallax_img {
     height: 640px;
