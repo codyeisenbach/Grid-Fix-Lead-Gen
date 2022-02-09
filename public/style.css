@@ -180,7 +180,7 @@ p {
 }
 
 .parallax_img {
-  height: 600px;
+  height: 770px;
   background-image: url("/Grid-Fix-Banner-Art.png");
   background-attachment: fixed;
   background-position: bottom;
@@ -188,9 +188,21 @@ p {
   background-size: 80% auto;
 }
 
+@media (max-width: 1500px) {
+  .parallax_img {
+    height: 670px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .parallax_img {
+    height: 630px;
+  }
+}
+
 @media (max-width: 1200px) {
   .parallax_img {
-    height: 600px;
+    height: 640px;
     background-size: 100% auto;
   }
 }
