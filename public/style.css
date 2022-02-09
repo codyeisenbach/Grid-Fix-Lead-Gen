@@ -210,6 +210,7 @@ p {
 @media (max-width: 800px) {
   .parallax_img {
     background-size: 100% auto;
+    background-attachment: fixed;
   }
 
   .logo {
@@ -289,11 +290,11 @@ p {
   }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .parallax_img {
     background-attachment: fixed;
   }
-}
+} */
 
 /* @media (max-width: 768px) {
   .parallax_img {
