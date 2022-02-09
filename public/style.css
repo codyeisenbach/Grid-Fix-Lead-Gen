@@ -94,8 +94,8 @@ p {
   font-size: 30px;
   color: white;
   margin-bottom: 50px;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .green-bar-text {
@@ -180,7 +180,7 @@ p {
 }
 
 .parallax_img {
-  height: 770px;
+  height: 800px;
   background-image: url("/Grid-Fix-Banner-Art.png");
   background-attachment: fixed;
   background-position: bottom;
@@ -207,17 +207,9 @@ p {
   }
 } */
 
-@media (max-width: 950px) {
-  /* .parallax_img {
-    height: 500px;
+@media (max-width: 800px) {
+  .parallax_img {
     background-size: 100% auto;
-  } */
-
-  .btn {
-    align-self: center;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 20px;
   }
 
   .logo {
@@ -235,14 +227,6 @@ p {
 
   .green-bar-text {
     padding: 2%;
-  }
-
-  .form-div {
-    width: 95%;
-    flex-direction: column;
-  }
-  .form-group {
-    margin-bottom: 2%;
   }
 
   .ftype1 {
@@ -266,7 +250,20 @@ p {
 
   .ftype6 {
     font-size: 23px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 940px) {
+  .btn {
+    align-self: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  .form-div {
+    width: 95%;
+    flex-direction: column;
   }
 
   .input-email {
@@ -276,6 +273,9 @@ p {
   .input-name {
     align-self: center;
     margin-bottom: 3%;
+  }
+  .form-group {
+    margin-bottom: 2%;
   }
 }
 
