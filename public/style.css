@@ -188,10 +188,16 @@ p {
   background-size: 80% auto;
 }
 
+@media (max-width: 400px) {
+  .parallax_img {
+    height: 230px;
+    background-size: 100% auto;
+  }
+}
+
 @media (max-width: 1400px) {
   .parallax_img {
     height: 620px;
-    background-attachment: fixed;
     background-size: 80% auto;
   }
 }
@@ -199,7 +205,6 @@ p {
 @media (max-width: 1200px) {
   .parallax_img {
     height: 640px;
-    background-attachment: fixed;
     background-size: 100% auto;
   }
 }
@@ -207,7 +212,6 @@ p {
 @media (max-width: 950px) {
   .parallax_img {
     height: 500px;
-    background-attachment: fixed;
     background-size: 100% auto;
   }
 
@@ -288,7 +292,13 @@ p {
 @media (max-width: 768px) {
   .parallax_img {
     height: 380px;
-    background-attachment: fixed;
+    background-size: 100% auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .parallax_img {
+    height: 300px;
     background-size: 100% auto;
   }
 }
@@ -296,15 +306,13 @@ p {
 @media (max-width: 520px) {
   .parallax_img {
     height: 280px;
-    background-attachment: fixed;
     background-size: 100% auto;
   }
 }
 
-@media (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   .parallax_img {
-    height: 230px;
-    background-attachment: fixed;
+    height: 220px;
     background-size: 100% auto;
   }
 }
