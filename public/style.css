@@ -299,8 +299,8 @@ p {
 
 @media only screen and (max-width: 400px) {
   .parallax_img {
-    height: 200px;
-    background-attachment: fixed !important;
+    height: 160px;
+    background-attachment: fixed;
     background-size: 100% auto;
   }
 }
