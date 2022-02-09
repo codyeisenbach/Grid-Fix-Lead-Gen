@@ -196,7 +196,7 @@ p {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .parallax_img {
     height: 230px;
     background-attachment: fixed;
