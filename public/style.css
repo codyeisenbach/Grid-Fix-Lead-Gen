@@ -188,7 +188,7 @@ p {
   background-size: 80% auto;
 }
 
-@media (max-width: 1500px) {
+/* @media (max-width: 1500px) {
   .parallax_img {
     height: 670px;
   }
@@ -205,13 +205,13 @@ p {
     height: 640px;
     background-size: 100% auto;
   }
-}
+} */
 
 @media (max-width: 950px) {
-  .parallax_img {
+  /* .parallax_img {
     height: 500px;
     background-size: 100% auto;
-  }
+  } */
 
   .btn {
     align-self: center;
@@ -287,7 +287,7 @@ p {
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .parallax_img {
     height: 380px;
     background-size: 100% auto;
@@ -315,4 +315,4 @@ p {
     background-attachment: fixed !important;
     background-size: 100% auto;
   }
-}
+} */
