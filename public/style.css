@@ -181,7 +181,7 @@ p {
 
 .parallax_img {
   height: 650px;
-  background-image: url("Grid_Fix_Lead_Gen/public/Grid-Fix-Banner-Art.png");
+  background-image: url("/Grid-Fix-Banner-Art.png");
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -191,6 +191,14 @@ p {
 @media (max-width: 1100px) {
   .parallax_img {
     height: 600px;
+    background-attachment: fixed;
+    background-size: 100% auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .parallax_img {
+    height: 230px;
     background-attachment: fixed;
     background-size: 100% auto;
   }
@@ -260,14 +268,6 @@ p {
   .input-name {
     align-self: center;
     margin-bottom: 3%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .parallax_img {
-    height: 230px;
-    background-attachment: fixed;
-    background-size: 100% auto;
   }
 }
 
