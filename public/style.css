@@ -196,14 +196,6 @@ p {
   }
 }
 
-@media (max-width: 768px) {
-  .parallax_img {
-    height: 230px;
-    background-attachment: fixed;
-    background-size: 100% auto;
-  }
-}
-
 @media (max-width: 950px) {
   .btn {
     align-self: center;
@@ -276,5 +268,13 @@ p {
     height: 130px;
     width: 81%;
     margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .parallax_img {
+    height: 230px;
+    background-attachment: fixed;
+    background-size: 100% auto;
   }
 }
