@@ -289,18 +289,18 @@ p {
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .parallax_img {
-    height: 220px;
-    background-attachment: fixed !important;
-    background-size: 100% auto;
-  }
-}
-
 @media (max-width: 520px) {
   .parallax_img {
     height: 280px;
     background-attachment: fixed;
+    background-size: 100% auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .parallax_img {
+    height: 220px;
+    background-attachment: fixed !important;
     background-size: 100% auto;
   }
 }
