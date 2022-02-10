@@ -130,6 +130,7 @@ p {
   margin-top: 1%;
   width: 30%;
   max-width: 300px;
+  margin-bottom: 5%;
 }
 
 .lightning-div {
@@ -194,7 +195,7 @@ p {
   .logo-image {
     width: 58%;
     margin-bottom: 5%;
-    margin-top: 4%;
+    margin-top: 3%;
   }
 
   .green-bar {
