@@ -190,10 +190,11 @@ p {
 
 @media (max-width: 800px) {
   .logo {
-    margin-bottom: 35px;
+    margin-bottom: 0;
   }
 
   .logo-image {
+    margin-top: 0;
     width: 58%;
   }
 
