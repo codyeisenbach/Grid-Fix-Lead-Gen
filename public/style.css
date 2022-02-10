@@ -36,7 +36,7 @@ p {
   font-family: "Helvetica-Light";
   font-size: 32px;
   color: white;
-  margin-bottom: 4%;
+  margin-bottom: 3%;
 }
 
 .ftype2 {
@@ -116,7 +116,7 @@ p {
   max-height: 160px;
   width: 75%;
   height: 6%;
-  background: rgb(180, 192, 219);
+  background: rgb(177, 205, 221);
   margin-bottom: 3%;
 }
 
@@ -124,12 +124,12 @@ p {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 5%;
 }
 
 .logo-image {
   display: flex;
-  margin-top: 3%;
+  margin-top: 1%;
   width: 30%;
   max-width: 300px;
 }
@@ -194,7 +194,6 @@ p {
   }
 
   .logo-image {
-    margin-top: 20px;
     width: 58%;
   }
 
