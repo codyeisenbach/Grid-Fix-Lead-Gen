@@ -187,10 +187,14 @@ p {
 }
 
 @media (max-width: 800px) {
+  .lightning-div {
+    margin-bottom: 1%;
+  }
+
   .logo-image {
     width: 58%;
     margin-bottom: 5%;
-    margin-top: 3%;
+    margin-top: 4%;
   }
 
   .green-bar {
