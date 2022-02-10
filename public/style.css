@@ -81,8 +81,8 @@ p {
   font-size: 19px;
   color: white;
   width: 100%;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
   margin-top: 1%;
   margin-bottom: 3%;
 }
@@ -116,7 +116,7 @@ p {
   max-height: 160px;
   width: 75%;
   height: 6%;
-  background: rgba(82, 255, 189, 0.801);
+  background: rgb(180, 192, 219);
   margin-bottom: 3%;
 }
 
@@ -176,7 +176,7 @@ p {
   margin-left: 25px;
   margin-top: 40px;
   height: 45px;
-  width: 190px;
+  width: 220px;
 }
 
 .parallax_img {
@@ -239,6 +239,7 @@ p {
     margin-left: 0;
     margin-right: 0;
     margin-top: 20px;
+    width: 120px;
   }
   .form-div {
     width: 95%;
